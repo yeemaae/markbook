@@ -1,3 +1,9 @@
 venv/
 db.sqlite3
 __pycache__
+media/
+
+#secrets
+cert.crt
+cert.key
+secrets.py
