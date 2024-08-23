@@ -1,0 +1,284 @@
+@import url(//fonts.googleapis.com/css?family=Raleway);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+ol {
+    line-height: 1.7;
+    margin-left: 20px;
+}
+
+#header {
+    padding: 15px 80px;
+    font-size: 16px;
+    background: #007bff;
+    color: #ffffff;
+    border-bottom: 5px solid #0056b3;
+    overflow: hidden;
+}
+
+#header .logo {
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    color: #f8f9fa;
+    font-size: 24px;
+    margin-right: 15%;
+}
+
+#header ul.menu {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#header ul.menu li {
+    float: left;
+    padding: 6px 12px;
+}
+
+#header ul.menu li.selected a, #header ul.menu li.selected a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#header a {
+    color: #f8f9fa;
+}
+#header a:hover {
+    color: #e9ecef;
+}
+
+#header .user {
+    float: right;
+    padding-top: 6px;
+}
+
+#content {
+    padding: 40px 80px;
+    background-color: #ffffff;
+}
+
+/* forms */
+form {
+    overflow: hidden;
+}
+
+form p {
+    width: 100%;
+    overflow: hidden;
+}
+
+label {
+    float: left;
+    clear: both;
+    color: #495057;
+    margin-bottom: 6px;
+}
+input, textarea {
+    clear: both;
+    float: left;
+    margin: 0 0 12px;
+    background: #e9ecef;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+input[type=submit], a.button {
+    font-weight: bold;
+    background: #007bff;
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.errorlist {
+    color: #dc3545;
+    float: left;
+    clear: both;
+    padding-left: 12px;
+}
+.helptext {
+    margin: 0 0 24px 0;
+    color: #6c757d;
+    clear: both;
+    float: left;
+    font-size: 14px;
+}
+/* messages */
+ul.messages {
+    margin: 12px 80px;
+    padding: 0;
+    list-style-type: none;
+}
+ul.messages li.success,
+ul.messages li.warning,
+ul.messages li.error,
+ul.messages li.info {
+    margin: 0;
+    padding: 16px 24px;
+    list-style: none;
+    color: #ffffff;
+}
+
+ul.messages li.success { background: #28a745; }
+ul.messages li.success a { color: #155724; }
+
+ul.messages li.error { background: #dc3545; color: #f5c6cb; }
+ul.messages li.error a { color: #f5c6cb; }
+
+ul.messages li.info { background: #17a2b8; color: #d1ecf1; }
+ul.messages li.info a { color: #0c5460; }
+
+ul.messages li.warning { background: #ffc107; }
+ul.messages li.warning a { color: #856404; }
+
+ul.messages li a.close {
+    margin: 0;
+    float: right;
+    opacity: 1;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.login-form {
+    float: left;
+}
+
+/* social-auth */
+.social {
+    float: right;
+}
+.social li {
+    list-style: none;
+    padding: 12px 24px;
+    margin: 0 0 12px 0;
+}
+.social li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #ffffff;
+}
+.social li.facebook { background: #3b5998; }
+.social li.twitter { background: #1da1f2; }
+.social li.google { background: #db4437; }
+
+/* images */
+
+.image-preview, .image-detail {
+    max-width: 320px;
+    float: left;
+    margin: 0 24px 24px 0;
+}
+.image-detail { margin-top: 24px; }
+.image-info div {
+    padding: 24px 0;
+    overflow: hidden;
+}
+.count {
+    color: #6c757d;
+    border: 4px solid #ced4da;
+    border-radius: 30px;
+    padding: 12px 24px;
+    margin: 24px 12px 0;
+}
+a.like, a.follow { float: right; margin-top: -10px; }
+
+#image-list { overflow: hidden; }
+#image-list .image {
+    float: left;
+    width: 240px;
+    height: 320px;
+    margin: 0 12px 12px 12px;
+    border-top: 10px solid #007bff;
+    background: #f1f3f5;
+}
+#image-list img { width: 240px; height: 240px; }
+#image-list .info { padding: 12px; }
+#image-list .info a { color: #495057; }
+.image-likes div {
+    float: left;
+    width: auto;
+    padding: 12px;
+    text-align: center;
+}
+.image-likes img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+/* users */
+#people-list img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+#people-list .user {
+    width: 200px;
+    float: left;
+    overflow: hidden;
+    padding: 12px;
+}
+#people-list .info { text-align: center; }
+img.user-detail {
+    border-radius: 50%;
+    float: left;
+}
+.profile-info {
+    float: left;
+    overflow: hidden;
+    margin-right: 24px;
+}
+.image-container { margin-top: 48px; }
+
+/* actions */
+.action {
+    clear: both;
+    overflow: hidden;
+}
+.action .images {
+    float: left;
+    margin: 0 12px 12px 0;
+}
+.action .date {
+    font-style: italic;
+    color: #adb5bd;
+}
